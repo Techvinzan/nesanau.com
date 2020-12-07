@@ -1,0 +1,59 @@
+=====================
+NESANAU.COM - STUDENT ASSOCIATION WEBSITE.
+=====================
+
+TABLE OF CONTENTS
+1. Overview
+2. Languages and Frameworks
+3. Folder Structure and Organisations
+4. Updates and Versioning
+5. Hosting and Domain: DevOps Architecture
+
+
+==========================================
+1.0 OVERVIEW:
+
+   1.1  Nesanau.com is the company website featuring details, info, people and pictures of Nigerian Economics Students    Association(NESA) chapter of Nnamdi Azikiwe University, Awka. The website primarily serves online and internet visibility purposes for NESA, ensuring that programmes and details of the association can be accessed online by its student-members and other users online.
+
+   1.2 Nesanau.com is a 6-page website featuring conventional webpages found below with their respective source files.
+    1.2.1 -Homepage; File: (index.html) Link: nesanau.com
+    1.2.2 -About page; File: (about.html) Link: nesanau.com/about
+    1.2.3 -Gallery; File: (gallery.html) Link: nesanau.com/gallery
+    1.2.4 -Careers; File: (careers.html) Link: nesanau.com/careers
+    1.2.5 -Contact; File: (contact.html) Link: nesanau.com/contact
+
+    1.2.6 -Blog (nesanau.com/blog: is accessed and manipulated using Wordpress. Note that wordpress is not installed fully on the site, but only on  blog webpage/subdomain. The Admin backend for accessing this is as follows below:
+     Backend Admin Url:
+     Password:
+    )
+
+
+===========================================
+
+2.0 LANGUAGES, LIBRARIES AND FRAMEWORKS.
+
+   2.1 HTML & CSS:
+   2.2 PHP: 
+       Used for form validation and subscriptions collector found in the two folders under Php folder, (/Mailchimp) and (/phpmailer). Essentially, the backend for the website was written using PHP.
+
+   2.3 JSON: 
+       Packages and dependencies used on the website was compiled using JSON and the two JSON files can be found at (package.json[which features the dependencies and packages installed and used on the website]) and also at (package-lock.json[which hosts all available packages and dependencies from NPM's registry, for easy adoption to the package.json in use. It features all frameworks and libraries found at registry.npm.com]).
+
+   2.4 LESS, a CSS Preprocessor:
+       Less was used for faster application of styles and CSS rules to the project. All the less files can be found under the "Assets Folder" using this path: (assets/less/).
+
+   2.5 JAVASCRIPT:
+       2.5.1  Gulpfile.Js: 
+       2.5.2 Vanilla JS: Most of the Javascript functions written for the software was written using Vanilla JS, independent of any special framework, and these javascript files are as follows:
+       1. custom.js (assets/js/custom.js) -
+       2. theme.js (assets/js/theme.js) -
+       3. theme.min.js (assets/js/theme.min.js) - the minified version of theme.js.
+
+       4. switcher.js (assets/switcher/switcher.js) - 
+       
+   2.6 JQUERY:
+   2.7 BOOTSTRAP:
+
+==============================================
+
+3.0 FOLDER STRUCTURE AND ORGANISATION
